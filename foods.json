@@ -448,5 +448,95 @@
   "text": "Suutei tsai is a traditional Mongolian milk tea made with green tea, milk, water, and salt.",
   "region": "Mongolia",
   "type": "Beverage"
+},
+{
+  "id": "76",
+  "text": "Adobong Manok is the quintessential Filipino chicken dish where chicken pieces are braised in a savory-sour sauce made from vinegar, soy sauce, garlic, and bay leaves. The meat becomes incredibly tender and flavorful after slow simmering. This comfort food is often served with white rice and is considered by many as the national dish of the Philippines. Every Filipino family has their own special recipe variation passed down through generations.",
+  "region": "Philippines",
+  "type": "Main Course"
+},
+{
+  "id": "77",
+  "text": "Sinigang is a beloved Filipino sour stew typically made with pork ribs, shrimp, or beef. The broth gets its distinctive sour flavor from tamarind pods, making it refreshing and tangy. Vegetables like radish, string beans, leafy greens, and eggplant are added for nutrition and texture. Served with white rice, this humble yet satisfying dish is perfect for rainy days and family gatherings.",
+  "region": "Philippines",
+  "type": "Main Course"
+},
+{
+  "id": "78",
+  "text": "Kare-Kare is a rich and creamy Filipino oxtail stew with a peanut-based sauce that's both savory and slightly sweet. Tender meat is combined with vegetables like bok choy, eggplant, and string beans in a velvety peanut gravy. Traditionally served with bagoong on the side for extra umami flavor. This special occasion dish showcases the Filipino ability to create complex flavors from simple ingredients.",
+  "region": "Philippines",
+  "type": "Main Course"
+},
+{
+  "id": "79",
+  "text": "Tinola is a light and aromatic Filipino ginger-based chicken soup that's both comforting and healthy. Chicken is poached with fresh ginger, garlic, and fish sauce in clear broth, then finished with leafy vegetables and chili peppers. The ginger gives it warming properties believed to cure colds and flu. This simple yet flavorful dish is often made during illness or family sick days for its healing qualities.",
+  "region": "Philippines",
+  "type": "Soup"
+},
+{
+  "id": "80",
+  "text": "Lechon is the showstopping centerpiece of Filipino celebrations where a whole suckling pig is roasted over hot coals until the skin becomes crackling crisp and golden brown. The meat inside stays moist and tender from slow roasting. Served with a liver-based sauce called lechon sauce, it's the star of fiestas, weddings, and major family celebrations. A single lechon can feed dozens of people and costs considerable money, making it reserved for special occasions.",
+  "region": "Philippines",
+  "type": "Main Course"
+},
+{
+  "id": "81",
+  "text": "Lumpia is the Filipino spring roll, a crispy fried appetizer filled with meat, shrimp, or vegetables. The thin, delicate wrapper becomes golden and crunchy when fried, while the inside stays moist and flavorful. Served with sweet chili sauce or vinegar-based dip, it's a staple at parties, gatherings, and street food stalls. Both fresh and fried versions exist, with lumpiang shanghai being the most popular crispy variant.",
+  "region": "Philippines",
+  "type": "Snack"
+},
+{
+  "id": "82",
+  "text": "Empanada is a Filipino savory pastry with a golden, flaky outer crust and savory filling of meat, shrimp, or vegetables. The dough is folded into a distinctive half-moon shape and either fried until crispy or baked. Perfect as a handheld snack, street food, or party appetizer. Filipino empanadas are often smaller than their Latin American counterparts and packed with distinctive flavors like ground beef, potatoes, and onions.",
+  "region": "Philippines",
+  "type": "Snack"
+},
+{
+  "id": "83",
+  "text": "Tokwa't Baboy is a savory Filipino dish combining fried tofu cubes with tender pork in a tangy dark sauce made with vinegar, soy sauce, and spices. The contrast between crispy-fried tofu and soft pork creates interesting textures. Often served as a pulutan with beer or as part of a rice meal. This humble but delicious dish is beloved in Filipino homes and is both economical and satisfying.",
+  "region": "Philippines",
+  "type": "Appetizer"
+},
+{
+  "id": "84",
+  "text": "Fishcake, known locally as fishball or fish cake, is a Filipino street food made from ground fish, flour, and seasonings formed into balls or patties then deep-fried until golden. Often served on skewers with various dipping sauces including sweet chili, vinegar, or spicy gravy. A popular cheap, quick snack sold by street vendors everywhere in the Philippines. Can be made at home or bought ready-made from markets and stores.",
+  "region": "Philippines",
+  "type": "Snack"
+},
+{
+  "id": "85",
+  "text": "Isaw is a Filipino barbecue delicacy featuring grilled chicken or pork intestines seasoned with garlic, vinegar, and spices. The intestines are cleaned meticulously, marinated, and grilled over charcoal until slightly charred outside while remaining tender inside. Served as street food on skewers with a vinegar-based dipping sauce. Though offal-based, it's treasured for its unique flavor and texture by Filipinos who value waste-free cooking.",
+  "region": "Philippines",
+  "type": "Snack"
+},
+{
+  "id": "86",
+  "text": "Ube Halaya is a vibrant purple Filipino jam made from ube root, condensed milk, and butter cooked slowly until thick and creamy. The distinctive purple color and subtle nutty flavor make it instantly recognizable. Served as a spread on bread, topping for ice cream, or as a standalone dessert with mamon. This luxurious-tasting treat is now beloved worldwide and often featured in Filipino bakeries and restaurants internationally.",
+  "region": "Philippines",
+  "type": "Dessert"
+},
+{
+  "id": "87",
+  "text": "Leche Flan is a Filipino egg custard dessert with a silky, melt-in-mouth texture topped with a layer of caramel. Eggs, condensed milk, and evaporated milk create the rich custard, baked in a caramel-lined mold. This elegant dessert appears at celebrations, fiestas, and special family dinners. The contrast between the smooth custard and crispy caramel layer makes it an irresistible Filipino favorite that rivals international desserts.",
+  "region": "Philippines",
+  "type": "Dessert"
+},
+{
+  "id": "88",
+  "text": "Bibingka is a Filipino rice cake traditionally baked on banana leaves in a clay oven, resulting in a slightly charred, crispy exterior and fluffy inside. Made with rice flour, eggs, and coconut milk, it's topped with salted egg and grated cheese. Traditionally served during the Christmas season but available year-round. Often enjoyed with hot chocolate or coffee, it's a beloved Filipino treat that symbolizes warmth and tradition.",
+  "region": "Philippines",
+  "type": "Dessert"
+},
+{
+  "id": "89",
+  "text": "Taho is a Filipino breakfast and street food dessert made from silken tofu, brown sugar syrup, and sago pearls. Eaten warm from a bucket carried by vendors who announce their presence early morning in neighborhoods. The soft tofu, sweet syrup, and chewy sago pearls create a comforting, simple dessert. It's nostalgic, affordable, and represents the Filipino street food culture at its best.",
+  "region": "Philippines",
+  "type": "Dessert"
+},
+{
+  "id": "90",
+  "text": "Buko Juice is a refreshing Filipino beverage made from fresh coconut water harvested from young green coconuts. Served ice-cold, sometimes with a bit of brown sugar syrup, it's the perfect tropical drink for hot Philippine weather. Often sold by street vendors with the coconut meat scooped out and offered as a snack alongside the juice. Naturally hydrating and packed with electrolytes, it's considered a healthy and authentic Filipino refreshment.",
+  "region": "Philippines",
+  "type": "Drink"
 }
 ]
