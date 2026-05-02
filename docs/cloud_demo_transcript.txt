@@ -1,0 +1,21 @@
+returncode: 0
+stdout:
+Welcome to Cloud RAG-Food System!
+=====================================
+Using Upstash Vector Database + Groq AI
+
+Loaded 98 food items from database
+Initializing Upstash Vector Database with 98 food items...
+Successfully uploaded food data to Upstash Vector Database
+
+Cloud RAG is ready! Ask questions about food (type 'exit' to quit):
+Try queries like:
+- 'What are some healthy Mediterranean dishes?'
+- 'Show me comfort foods with cultural stories'
+- 'What Thai dishes can I make at home?'
+
+You: 
+Goodbye!
+
+stderr:
+

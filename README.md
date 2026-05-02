@@ -2,6 +2,8 @@
 
 This project demonstrates a complete migration from a local RAG system to a cloud-powered solution, showcasing modern AI infrastructure and deployment practices.
 
+**GitHub Repository:** https://github.com/jsepblo/ragfood.git
+
 ## 🌟 Project Overview
 
 This repository contains **two versions** of a RAG (Retrieval-Augmented Generation) system for food information:
