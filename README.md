@@ -102,8 +102,15 @@ pip install chromadb requests
 
 #### Running the Local System
 ```bash
+# 1. Clone your fork (change username as needed)
+git clone https://github.com/jsepblo/ragfood.git
+cd ragfood
+
+# 2. Start Ollama (in one terminal)
+ollama serve
+
+# 3. Run RAG system (in another terminal)
 python rag_run.py
-```
 
 ---
 
