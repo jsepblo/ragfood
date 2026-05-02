@@ -603,8 +603,9 @@
   "region": "Texas, USA",
   "type": "Main Course",
   "cultural_story": "Born from cowboy culture and cattle drives, this stew represents the rugged, communal spirit of the American Southwest"
-},
-{
+}
+]</content>
+<parameter name="oldString">{
   "id": "75",
   "text": "Suutei tsai is a traditional Mongolian milk tea made with green tea, milk, water, and salt.",
   "region": "Mongolia",

@@ -1,0 +1,10 @@
+# Cloud RAG System Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+python-dotenv>=1.0.0
+requests>=2.31.0
+upstash-vector>=0.1.0
+
+# Optional: For local development/testing
+# chromadb>=0.4.0  # Only needed for local version
