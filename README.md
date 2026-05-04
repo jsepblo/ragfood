@@ -1,203 +1,81 @@
-# 🧠 RAG-Food: Advanced Retrieval-Augmented Generation with Cloud Migration
+# 🧠 RAG-Food Final Submission
 
-This project demonstrates a complete migration from a local RAG system to a cloud-powered solution, showcasing modern AI infrastructure and deployment practices.
+This repository contains the full Week 4 web application submission for the AI-powered food RAG project.
 
-**GitHub Repository:** https://github.com/jsepblo/ragfood.git
+## ✅ Final Week 4 Deliverable
 
-## 🌟 Project Overview
+The completed Week 4 portfolio-ready project is located in the `web-app/` directory.
 
-This repository contains **two versions** of a RAG (Retrieval-Augmented Generation) system for food information:
+### Final Deliverable Contents
+- **Next.js 15 web application**
+- **React + TypeScript frontend**
+- **Upstash Vector database integration**
+- **Groq API for LLM inference**
+- **Responsive chat interface**
+- **Source attribution and model selection**
+- **Deployment-ready configuration**
+- **Comprehensive documentation**
 
-### 📁 Repository Structure
+## 📁 Repository Structure
+
 ```
-/local-version/          # Original ChromaDB + Ollama system
-├── rag_run.py          # Local RAG implementation
-├── foods.json          # Food database (75 items)
-/cloud-version/          # Cloud Upstash + Groq system
-├── cloud_rag.py        # Cloud RAG implementation
-├── foods.json          # Enhanced database (95+ items)
-/docs/
-├── MIGRATION_PLAN.md   # AI-assisted migration documentation
-├── testing_results.md  # Performance comparisons
-/data/                  # Enhanced food datasets
-.env.example           # Environment variables template
-requirements.txt       # Python dependencies
+/web-app/              # Final Week 4 web application
+├── app/               # Next.js App Router pages and API route
+├── components/        # Chat UI component
+├── lib/               # RAG logic (Upstash + Groq)
+├── docs/              # Deployment, architecture, API docs
+├── package.json       # Web app dependencies and scripts
+├── tsconfig.json      # TypeScript config
+├── next.config.js     # Next.js config
+├── .env.example       # Environment variables template
+└── README.md          # Web app documentation
+
+/local-version/        # Original local Python RAG system (legacy)
+/cloud-version/        # Original cloud Python RAG system (legacy)
 ```
+
+## 🚀 How to Run Week 4 Web App
+
+```powershell
+cd web-app
+npm install
+npm run dev
+```
+
+Then open:
+
+- `http://localhost:3000`
+
+## 📚 Documentation in `web-app/docs`
+
+- `README.md` - Full project guide
+- `DEPLOYMENT.md` - Deployment and Vercel setup
+- `ARCHITECTURE.md` - Architecture and data flow
+- `API_REFERENCE.md` - API usage and examples
+- `SUBMISSION_GUIDE.md` - Submission checklist and portfolio notes
+
+## 🎯 Status
+
+- **Week 4 Web App is complete**
+- **App builds successfully**
+- **Dev server is running locally**
+- **Documentation is written and ready**
+
+## 💡 Notes for Submission
+
+- Use the `web-app/` folder as the final deliverable
+- Do not expose `.env.local` credentials
+- Deploy to Vercel for the live demo
 
 ---
 
-## 🚀 PART 1: Cloud Infrastructure Setup
+## What’s Next
 
-### ✅ Prerequisites Checklist
+If you want, I can also help you:
+- prepare the final GitHub repository for submission
+- configure Vercel deployment step-by-step
+- generate a concise submission summary for your course
 
-#### 1. Vercel Account Setup
-- Create account at [vercel.com](https://vercel.com)
-- Connect with GitHub authentication
-- Free tier is sufficient for this project
-
-#### 2. Upstash Vector Database
-- Access via Vercel Storage dashboard → Vector
-- Create new database with these settings:
-  - **Name**: `rag-food-advanced-[yourname]`
-  - **Region**: Select closest to your location
-  - **Embedding Model**: `mixedbread-ai/mxbai-embed-large-v1`
-  - **Similarity Function**: Cosine
-- Copy the REST URL and Token
-
-#### 3. Groq Cloud API
-- Sign up at [groq.com](https://groq.com)
-- Generate API key from dashboard
-- Free tier includes generous usage limits
-
-#### 4. Environment Variables
-```bash
-# Copy .env.example to .env and fill in your credentials
-cp .env.example .env
-
-# Edit .env with your actual values:
-UPSTASH_VECTOR_REST_URL=https://your-database-url.upstash.io
-UPSTASH_VECTOR_REST_TOKEN=your-upstash-token-here
-GROQ_API_KEY=your-groq-api-key-here
-```
-
----
-
-## 💻 PART 2: Installation & Usage
-
-### Cloud Version (Recommended)
-
-#### Installation
-```bash
-# Install Python dependencies
-pip install -r requirements.txt
-
-# Copy environment template
-cp .env.example .env
-# Edit .env with your actual API keys
-```
-
-#### Running the Cloud System
-```bash
-python cloud_rag.py
-```
-
-**First run will:**
-- Load 95+ enhanced food items
-- Initialize Upstash Vector Database with automatic embeddings
-- Start interactive query session
-
-### Local Version (Original)
-
-#### Prerequisites
-- Python 3.8+
-- Ollama installed: [ollama.ai](https://ollama.ai)
-- Required Ollama models:
-```bash
-ollama pull llama3.2
-ollama pull mxbai-embed-large
-```
-
-#### Installation
-```bash
-pip install chromadb requests
-```
-
-#### Running the Local System
-```bash
-# 1. Clone your fork (change username as needed)
-git clone https://github.com/jsepblo/ragfood.git
-cd ragfood
-
-# 2. Start Ollama (in one terminal)
-ollama serve
-
-# 3. Run RAG system (in another terminal)
-python rag_run.py
-
----
-
-## 📊 PART 3: Enhanced Food Database
-
-### Database Statistics
-- **Total Items**: 95+ diverse food entries
-- **Categories**:
-  - 🌍 World Cuisines: 45+ international dishes
-  - 🥗 Health-Conscious: 6 nutrient-rich options
-  - 🏡 Comfort Foods: 6 culturally significant dishes
-  - 🍜 Asian Cuisine: 15+ regional specialties
-  - 🥘 Global Classics: 20+ traditional favorites
-
-### Sample Enhanced Entries
-
-#### Health-Conscious Options
-```
-Quinoa Buddha Bowl
-- Complete plant protein (16g per serving)
-- Rich in fiber, iron, magnesium
-- Anti-inflammatory properties
-- Dietary tags: vegetarian, gluten-free, high-protein
-```
-
-#### Cultural Comfort Foods
-```
-Irish Stew
-- Traditional lamb and root vegetable stew
-- Warmed Irish families for generations
-- Represents rural agricultural heritage
-- Often served during celebrations
-```
-
----
-
-## 🔧 PART 4: Technical Architecture
-
-### Cloud Version Architecture
-```
-User Query → Cloud RAG System
-                    ↓
-            ┌─────────────────┐
-            │   Groq API      │ ← llama3-8b-8192 model
-            │   (Cloud)       │   Fast inference, global CDN
-            └─────────────────┘
-                    ↑
-            ┌─────────────────┐
-            │ Upstash Vector  │ ← Automatic embeddings
-            │   Database      │   mxbai-embed-large-v1
-            │   (Cloud)       │   Cosine similarity
-            └─────────────────┘
-                    ↑
-            ┌─────────────────┐
-            │   Enhanced      │
-            │   Food Data     │ ← 95+ items with metadata
-            │   (JSON)        │   Cultural stories, nutrition
-            └─────────────────┘
-```
-
-### Key Technical Improvements
-
-#### Migration Changes
-| Component | Local Version | Cloud Version | Improvement |
-|-----------|---------------|---------------|-------------|
-| Vector DB | ChromaDB | Upstash Vector | Managed cloud service |
-| Embeddings | Manual (Ollama) | Automatic (Upstash) | No local model required |
-| LLM | Ollama llama3.2 | Groq llama3-8b | Faster inference, global scale |
-| Data Size | 75 items | 95+ items | 20+ enhanced entries |
-| Deployment | Local only | Cloud-ready | Vercel deployment ready |
-
-#### Performance Comparison
-- **Response Time**: 2-3x faster with cloud infrastructure
-- **Scalability**: Handle concurrent users vs single-user local
-- **Reliability**: 99.9% uptime vs local dependency availability
-- **Cost**: Predictable cloud costs vs local compute resources
-
----
-
-## 🧪 PART 5: Testing & Validation
-
-### Comprehensive Test Queries (15+ Examples)
-
-#### Semantic Similarity Tests
-- "Show me healthy Mediterranean options"
 - "What are some spicy Asian dishes?"
 - "Find vegetarian comfort foods"
 
